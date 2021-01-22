@@ -1,0 +1,19 @@
+// almond!
+print "Factorial(recursive): "
+function factorial(n):
+    if(n == 0)
+        return 1
+    return n * factorial(n-1)
+end
+print factorial(3) // prints factorial of 3, recursively calls factorial(n)
+print "Factorial(iterative): "
+var fact = 1
+for(var i = 1; i <= 3; i += 1):
+      fact *= i
+end
+print(fact)
+
+
+
+
+
